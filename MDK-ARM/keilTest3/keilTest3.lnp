@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"keiltest3\startup_stm32f103xe.o"
+"keiltest3\stm32f1xx_hal_msp.o"
+"keiltest3\stm32f1xx_it.o"
+"keiltest3\main.o"
+"keiltest3\usart.o"
+"keiltest3\gpio.o"
+"keiltest3\system_stm32f1xx.o"
+"keiltest3\stm32f1xx_hal_cortex.o"
+"keiltest3\stm32f1xx_hal_tim.o"
+"keiltest3\stm32f1xx_hal_pwr.o"
+"keiltest3\stm32f1xx_hal_tim_ex.o"
+"keiltest3\stm32f1xx_hal_dma.o"
+"keiltest3\stm32f1xx_hal_uart.o"
+"keiltest3\stm32f1xx_hal.o"
+"keiltest3\stm32f1xx_hal_flash.o"
+"keiltest3\stm32f1xx_hal_flash_ex.o"
+"keiltest3\stm32f1xx_hal_gpio_ex.o"
+"keiltest3\stm32f1xx_hal_rcc.o"
+"keiltest3\stm32f1xx_hal_gpio.o"
+"keiltest3\stm32f1xx_hal_rcc_ex.o"
+--library_type=microlib --strict --scatter "keilTest3\keilTest3.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "keilTest3.map" -o keilTest3\keilTest3.axf
